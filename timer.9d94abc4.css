@@ -1,0 +1,2 @@
+.active{background-color:green}button{color:#fff;background-color:red;width:30px}.pulse{animation:.5s infinite pulse}@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.1)}to{transform:scale(1)}}
+/*# sourceMappingURL=timer.9d94abc4.css.map */

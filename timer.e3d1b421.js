@@ -1,0 +1,2 @@
+let e=document.querySelector(".one"),t=document.querySelector(".two"),l=60;e.addEventListener("click",()=>{setInterval(function(){console.log(l-=1),30===l&&alert("Залишилося менше половини часу!")},6e3)});let c=30;t.addEventListener("click",function(){t.classList.add("active");let e=setInterval(function(){let l=Number((c-=.01).toFixed(2));console.log(l),l<=10&&t.classList.add("pulse"),l<=0&&(clearInterval(e),t.classList.remove("pulse"),t.classList.remove("active"),c=30)},10)});
+//# sourceMappingURL=timer.e3d1b421.js.map
